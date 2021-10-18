@@ -85,33 +85,32 @@ function retornaNPrimeirosPares(n) {
 }
 
 // EXERCÍCIO 09
-// function classificaTriangulo(ladoA, ladoB, ladoC) {
+function classificaTriangulo(ladoA, ladoB, ladoC) {
 
-//     if (ladoA === ladoB && ladoB === ladoC) {
-//         return "Equilátero"
-//     }else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
-//         return "Escaleno"
-//     }else {
-//         return "Isósceles"
-//     }
+    if (ladoA === ladoB && ladoB === ladoC) {
+        return "Equilátero"
+    }else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
+        return "Escaleno"
+    }else {
+        return "Isósceles"
+    }
 
-// }
+}
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-    let maior = array[0]
-    for (i = 1; i < array.length; i++) {
-        if (array[i] > maior) {
-            maior = array[i]
-        }
-    }
-    return maior
+    const ordem = array.sort(function(a, b) {
+        return a - b     
+    }) 
+     const arrayFinal = [ordem[ordem.length - 2], ordem[1]]
+     return arrayFinal
 }
 
 // EXERCÍCIO 11
-function retornaChamadaDeFilme(filme) {
-   
-}
+// function retornaChamadaDeFilme(filme) {
+//     const chamada = `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(", ")}.`
+//     return chamada
+// }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
