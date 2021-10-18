@@ -33,10 +33,17 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-   
+    const objeto = array
+    const arrayPar = objeto.filter((texto) => {
+        return texto % 2 === 0
+    })
+    const arrayElevado = arrayPar.map((texto) => {
+        return texto ** 2
+    })
+    return arrayElevado
 }
 
-EXERCÍCIO 06
+// EXERCÍCIO 06
 function retornaMaiorNumero(array) {
     let maior = array[0]
     for (i = 1; i < array.length; i++) {
@@ -68,31 +75,37 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 }
 
 // EXERCÍCIO 08
-// function retornaNPrimeirosPares(n) {
-//     const arrayPar = []
-//     for (let i = 0; arrayPar.length < n; i++)
-//     if (i % 2 === 0) {
-//         arrayPar.push(i)
-//     }
-//     return arrayPar
-// }
+function retornaNPrimeirosPares(n) {
+    const arrayPar = []
+    for (let i = 0; arrayPar.length < n; i++)
+    if (i % 2 === 0) {
+        arrayPar.push(i)
+    }
+    return arrayPar
+}
 
 // EXERCÍCIO 09
-function classificaTriangulo(ladoA, ladoB, ladoC) {
+// function classificaTriangulo(ladoA, ladoB, ladoC) {
 
-    if (ladoA === ladoB && ladoB === ladoC) {
-        return "Equilátero"
-    }else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
-        return "Escaleno"
-    }else {
-        return "Isósceles"
-    }
+//     if (ladoA === ladoB && ladoB === ladoC) {
+//         return "Equilátero"
+//     }else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
+//         return "Escaleno"
+//     }else {
+//         return "Isósceles"
+//     }
 
-}
+// }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    let maior = array[0]
+    for (i = 1; i < array.length; i++) {
+        if (array[i] > maior) {
+            maior = array[i]
+        }
+    }
+    return maior
 }
 
 // EXERCÍCIO 11
