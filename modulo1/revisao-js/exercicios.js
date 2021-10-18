@@ -16,17 +16,25 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+    const ordem = array.sort(function(a, b) {
+        return a - b     
+    }) 
+     return ordem
 }
 
 // EXERCÍCIO 04
-function retornaNumerosPares(array) {
-  
+// function retornaNumerosPares(array) {
+//     const objeto = array
+//     const arrayPar = objeto.filter((texto) => {
+//         return texto % 2 === 0
+//     })
+//     return arrayPar
+      
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+
 }
 
 // EXERCÍCIO 06
