@@ -23,13 +23,12 @@ function retornaArrayOrdenado(array) {
 }
 
 // EXERCÍCIO 04
-// function retornaNumerosPares(array) {
-//     const objeto = array
-//     const arrayPar = objeto.filter((texto) => {
-//         return texto % 2 === 0
-//     })
-//     return arrayPar
-      
+function retornaNumerosPares(array) {
+    const objeto = array
+    const arrayPar = objeto.filter((texto) => {
+        return texto % 2 === 0
+    })
+    return arrayPar     
 }
 
 // EXERCÍCIO 05
