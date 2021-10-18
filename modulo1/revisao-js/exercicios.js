@@ -36,7 +36,7 @@ function retornaNumerosParesElevadosADois(array) {
    
 }
 
-// EXERCÍCIO 06
+EXERCÍCIO 06
 function retornaMaiorNumero(array) {
     let maior = array[0]
     for (i = 1; i < array.length; i++) {
@@ -48,24 +48,24 @@ function retornaMaiorNumero(array) {
 }
 
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2) {
-    let maior = 0
-    let menor = 0
+// function retornaObjetoEntreDoisNumeros(num1, num2) {
+//     let maior = 0
+//     let menor = 0
     
-    if (num1 > num2) {
-        maior = num1
-        menor = num2
-    } else {
-        maior = num2
-        menor = num1
-    }
-    const dados = {
-        maiorNumero: maior,
-        maiorDivisivelPorMenor: maior % menor === 0,
-        diferenca: maior - menor
-    }
-    return dados
-}
+//     if (num1 > num2) {
+//         maior = num1
+//         menor = num2
+//     } else {
+//         maior = num2
+//         menor = num1
+//     }
+//     const dados = {
+//         maiorNumero: maior,
+//         maiorDivisivelPorMenor: maior % menor === 0,
+//         diferenca: maior - menor
+//     }
+//     return dados
+// }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
