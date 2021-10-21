@@ -76,12 +76,11 @@ div img {
     color: white;
     position: relative;
     display:block;
-    top: 50px;
+    top: auto;
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
-    margin-top: 100px;
 }
 
 #container-para-comprar {
@@ -94,7 +93,13 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
-
+#Mensagem{
+    text-align: center;
+    display: block;
+    width: 180px;
+    margin: auto auto;
+    padding-top: 100px;
+}
 
 /**
   *
