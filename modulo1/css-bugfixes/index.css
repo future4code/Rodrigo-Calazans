@@ -158,3 +158,15 @@ td button:active{
 #back-button:hover {
     background-color: #635a3d
 }
+
+#voltar{
+    margin: auto auto;
+    width: 100px;
+}
+
+#caixa-de-texto{
+    border-bottom: black solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
