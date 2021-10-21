@@ -44,10 +44,15 @@ div img {
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    display: block;
+    margin: auto auto;
+
 }
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    text-align: center;
+    
 }
 
 .container {
@@ -77,6 +82,7 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    text-align: center;
 }
 
 #container-para-comprar>p {
