@@ -74,10 +74,14 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    position: relative;
+    display:block;
+    top: 50px;
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    margin-top: 100px;
 }
 
 #container-para-comprar {
