@@ -1,0 +1,59 @@
+.Titulo{
+    background-color: yellow;
+    padding: 10px;
+    display: inline;
+    position: absolute;
+    left: 45%;
+}
+
+#Nome{
+    color: blue;
+}
+
+.Div-link{
+    font-size: 20px;
+    background-color: orange;
+    width: 19cm;
+    margin-top: 80px;
+}
+
+.container{
+    display: inline;
+    font-size: 20px;
+}
+
+#name{
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.tabela{
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.links{
+    margin: 20px;
+    position: relative;
+    left: 40%;
+    background-color: white;
+    display: inline;
+    padding: 10px;
+}
+
+body {
+    background: #FFFFFF url("img/beach-tennis-raquete-praia.jpg") ;
+}
+
+td{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.lista{
+    font-size: 30px;
+    display: inline-block;
+    background-color: yellow;
+    
+}
