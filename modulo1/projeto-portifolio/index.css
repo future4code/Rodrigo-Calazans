@@ -1,0 +1,56 @@
+#titulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 250px;
+}
+
+body{
+    background-image: url("https://www.teahub.io/photos/full/234-2341488_praia-wallpaper-papel-de-parede-fundo-praia.jpg");
+}
+
+#texto{
+    font-size:larger;
+    text-align: center;
+    height: 50px;
+}
+
+.lista{
+    font-size: larger;
+    width: 350px;
+    text-align: center;
+    margin: auto auto;
+
+}
+
+#link{
+    text-align: center;
+    padding: 10px;
+    margin: auto auto;
+    width: 350px;
+}
+
+#link:hover{
+    background-color: tomato;
+    color: yellow;
+}
+
+.formulario{
+    text-align: center;
+    font-size: larger;
+}
+
+.projetos{
+    margin: 100px auto;
+    position:sticky
+}
+
+#rodape{
+    background-color: white;
+}
+
+#imagem{
+    margin: auto auto;
+    text-align: center;
+}

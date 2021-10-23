@@ -10,7 +10,7 @@
  * 
  * 
  */
-/*
+
 console.log("Boas vindas ao jogo de Blackjack!")
 
 
@@ -43,7 +43,7 @@ if(confirm("Quer iniciar um novo jogo?")){
    console.log("O jogo acabou")
 }
 
-*/
+
 
 
 
