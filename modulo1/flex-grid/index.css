@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: mediumvioletred;
+
+}
+
+button{
+    padding: 0 10px;
+    margin: 10px;
+}
+
+h1{
+    margin: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 350px 50px 4fr ;
+    border: 1px solid black;
+}
+
+#menu1{
+    display:grid;
+    background-color:#f2d0e0;
+    padding: 10px;
+    font-size: x-large;
+    grid-template-rows: 50px 50px 50px 50px ;
+    
+}
+
+#menu2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    justify-items: center;
+}
+#menu3{
+    display: grid;
+    background-color: #f2d0e0;
+    font-size: x-large;
+    padding-top: 10px;
+    grid-template-rows: 55px 55px 50px 50px;
+    justify-items: start;
+}
+
+img{
+    height: 28px;
+    padding-right: 20px;
+}
+
+#seta{
+    padding-right: 0px;
+    justify-items: start;
+}
+
+footer{
+    background-color: mediumvioletred;
+    padding: 25px;
+    text-align: center;
+}
+
+#bolo{
+    height: 400px;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
+
+p{
+    display:grid;
+    grid-template-columns: 300px;
+    font-size: large;
+    text-align: center;
+    padding-left: 60px ;
+}
