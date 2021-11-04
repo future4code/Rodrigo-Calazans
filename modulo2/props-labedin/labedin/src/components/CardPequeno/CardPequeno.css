@@ -1,0 +1,10 @@
+.smallcard-conteiner{
+    display: flex ;
+    flex-direction: row;
+}
+
+.smallcard-conteiner > img {
+    width: 70px;
+    margin: 10px;
+    
+}
