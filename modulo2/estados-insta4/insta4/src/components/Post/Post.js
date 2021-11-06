@@ -112,6 +112,7 @@ class Post extends React.Component {
         </PostFooter>
         {componenteComentario}
       </PostContainer>
+      
   }
 }
 
