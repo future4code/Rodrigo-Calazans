@@ -1,19 +1,19 @@
 export const goToLogin = (history) => {
-    history.pushState("/login")
+    history.push("/login")
 }
 
 export const goToSingUp = (history) => {
-    history.pushState("/cadastro")
+    history.push("/cadastro")
 }
 
 export const goToAddRecipes = (history) => {
-    history.pushState("/adicionar-receita")
+    history.push("/adicionar-receita")
 }
 
-export const goToRecipeDetailPage = (history) => {
-    history.pushState("//detalhe/:id")
+export const goToRecipeDetail = (history) => {
+    history.push("//detalhe/:id")
 }
 
-export const goToRecipesListPage = (history) => {
-    history.pushState("/")
+export const goToRecipesList = (history) => {
+    history.push("/")
 }
