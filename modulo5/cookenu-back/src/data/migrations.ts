@@ -1,4 +1,4 @@
-import { connection } from "./connection"
+import { connection } from "./BaseDatabase"
 import users from "./users.json"
 import recipes from "./recipes.json"
 
