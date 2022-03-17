@@ -1,0 +1,1 @@
+{"version":3,"file":"tokenGeneratorMock.js","sourceRoot":"","sources":["tokenGeneratorMock.ts"],"names":[],"mappings":";;;AAAA,+CAAiD;AAGjD,MAAa,kBAAkB;IAA/B;QACW,aAAQ,GAAG,CAAC,KAAyB,EAAU,EAAE;YACpD,OAAO,eAAe,CAAA;QAC1B,CAAC,CAAA;IAOL,CAAC;IANU,MAAM,CAAC,KAAa;QACvB,OAAM;YACF,EAAE,EAAE,YAAY;YAChB,IAAI,EAAE,iBAAU,CAAC,MAAM;SAC1B,CAAA;IACL,CAAC;CACJ;AAVD,gDAUC"}
